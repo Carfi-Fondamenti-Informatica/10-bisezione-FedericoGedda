@@ -15,7 +15,7 @@ int main() {
     do {
         x=(a+b)/2;
         if (funz(x)==0){
-            cout<<x;
+            cout<<x<<endl;
             cout<<funz(x);
             return 0;
         } else {
