@@ -1,5 +1,5 @@
 #include <iostream>
-#include <math.h>
+#include <cmath>
 using namespace std;
 float funz(float y){
     float x=pow(y,2)*cos(y)+1;
