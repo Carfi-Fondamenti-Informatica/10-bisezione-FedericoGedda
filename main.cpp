@@ -1,19 +1,16 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
 float funz(float y){
     float x=pow(y,2)*cos(y)+1;
     return x;
 }
-
 int main() {
-    float a,b,x=0,err=0;
-
+    float a=0,b=0,x=0,err=0;
     do {
     cout<<"inserire estremi: ";
     cin>>a>>b;
-    }while ((funz(a)*funz(b)+1)>=0);
+    }while ((funz(a)*funz(b))>=0);
 
     do {
         a=(a+b)/2;
