@@ -10,10 +10,10 @@ int main() {
     do {
     cout<<"inserire estremi: ";
     cin>>a>>b;
-    }while ((funz(a)*funz(b))>=0);
+    }while (funz(a)*funz(b)>=0);
 
     do {
-        a=(a+b)/2;
+        x=(a+b)/2;
         if (funz(x)==0){
             cout<<x;
             cout<<funz(x);
